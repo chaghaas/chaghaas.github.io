@@ -1,1 +1,9 @@
-
+body {
+  background: #0a0a0f; color: #fff;
+  font-family: 'JetBrains Mono', monospace;
+  background-image:
+    linear-gradient(#ffffff0d 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff0d 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.logo span { color: #00d4ff; }
