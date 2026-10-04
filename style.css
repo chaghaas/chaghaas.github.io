@@ -7,3 +7,10 @@ body {
   background-size: 60px 60px;
 }
 .logo span { color: #00d4ff; }
+.avatar {
+  width: 280px; height: 280px; border-radius: 50%;
+  object-fit: cover; padding: 10px;
+  border: 3px dashed #00d4ff;
+  animation: spin 20s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
